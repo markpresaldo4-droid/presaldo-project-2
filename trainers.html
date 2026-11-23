@@ -1,0 +1,654 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Board of Trustees and Administrators - Kabankalan Catholic College</title>
+
+  <meta name="description" content="Meet the Board of Trustees and College Administrators of Kabankalan Catholic College, Inc.">
+
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --dark-blue: #003B7A;
+      --gold: #FFD700;
+      --white: #FFFFFF;
+      --sky-blue: #87CEEB;
+    }
+
+    body {
+      background-color: var(--white);
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .header {
+      background-color: var(--dark-blue);
+    }
+
+    .header .sitename {
+      color: var(--gold) !important;
+    }
+
+    .navmenu a {
+      color: var(--white) !important;
+    }
+
+    .navmenu a.active,
+    .navmenu a:hover {
+      color: var(--gold) !important;
+    }
+
+    .btn-getstarted {
+      background-color: var(--gold) !important;
+      color: var(--dark-blue) !important;
+    }
+
+    .page-title {
+      background-color: var(--dark-blue);
+      color: var(--white);
+    }
+
+    .page-title h1 {
+      color: var(--gold);
+      font-weight: 800;
+    }
+
+    .page-title p {
+      color: var(--white);
+    }
+
+    .breadcrumbs {
+      background-color: var(--sky-blue);
+    }
+
+    .breadcrumbs a,
+    .breadcrumbs li {
+      color: var(--dark-blue) !important;
+    }
+
+    .officials-section {
+      background-color: var(--dark-blue);
+      padding: 65px 0;
+    }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .section-heading h2 {
+      color: var(--gold);
+      font-size: 32px;
+      font-weight: 800;
+    }
+
+    .section-heading p {
+      color: var(--sky-blue);
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+    .official-card {
+      background-color: var(--white);
+      border-radius: 15px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      height: calc(100% - 30px);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+      border-bottom: 5px solid var(--gold);
+      transition: 0.3s;
+    }
+
+    .official-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .official-image {
+      width: 100%;
+      height: 300px;
+      background-color: var(--sky-blue);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .official-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .image-placeholder {
+      color: var(--dark-blue);
+      font-size: 50px;
+    }
+
+    .official-info {
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    .official-info h4 {
+      color: var(--dark-blue);
+      font-size: 19px;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .official-info span {
+      display: inline-block;
+      background-color: var(--sky-blue);
+      color: var(--dark-blue);
+      padding: 7px 15px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .official-info p {
+      color: #444;
+      margin-top: 12px;
+      font-size: 14px;
+    }
+
+    .category-title {
+      color: var(--gold);
+      text-align: center;
+      font-size: 25px;
+      font-weight: 800;
+      margin: 40px 0 30px;
+      padding-bottom: 15px;
+      border-bottom: 2px solid var(--sky-blue);
+    }
+
+    .president-card {
+      max-width: 400px;
+      margin: 0 auto 30px;
+    }
+
+    .footer {
+      background-color: #00264F;
+      color: var(--white);
+    }
+
+    .footer h4,
+    .footer .sitename {
+      color: var(--gold);
+    }
+
+    .footer p,
+    .footer a {
+      color: var(--white);
+    }
+
+    .footer a:hover {
+      color: var(--sky-blue);
+    }
+
+    @media (max-width: 768px) {
+      .official-image {
+        height: 260px;
+      }
+
+      .section-heading h2 {
+        font-size: 26px;
+      }
+    }
+  </style>
+
+</head>
+
+<body class="trainers-page">
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center sticky-top">
+
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">KCC</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="trainers.html" class="active">Administrators</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="courses.html">Get Started</a>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title">
+
+      <div class="heading">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+
+            <div class="col-lg-9">
+
+              <h1>Board of Trustees and Administrators</h1>
+
+              <p>
+                Meet the dedicated leaders and administrators of
+                Kabankalan Catholic College, Inc., whose commitment
+                and leadership guide the institution toward academic
+                excellence and quality education.
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Administrators</li>
+          </ol>
+        </div>
+      </nav>
+
+    </div>
+
+    <!-- Officials Section -->
+    <section class="officials-section">
+
+      <div class="container">
+
+        <!-- School President -->
+        <div class="section-heading">
+          <h2>School President</h2>
+          <p>LEADERSHIP AND ADMINISTRATION</p>
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-5 col-md-8">
+
+            <div class="official-card president-card">
+
+              <div class="official-image">
+                <!-- IMAGE 1: SCHOOL PRESIDENT -->
+                <img src="assets/img/lachica.jpg"
+                     alt="Rev. Fr. Richard L. Lachica"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+
+                <i class="bi bi-person-circle image-placeholder"
+                   style="display:none;"></i>
+              </div>
+
+              <div class="official-info">
+
+                <h4>Rev. Fr. Richard L. Lachica, MAED</h4>
+
+                <span>School President</span>
+
+                <p>
+                  Providing leadership and direction in advancing
+                  the mission, vision, and educational goals of
+                  Kabankalan Catholic College, Inc.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Vice Presidents -->
+        <h3 class="category-title">
+          Vice Presidents
+        </h3>
+
+        <div class="row gy-4">
+
+          <!-- Vice President 1 -->
+          <div class="col-lg-4 col-md-6">
+
+            <div class="official-card">
+
+              <div class="official-image">
+                <!-- IMAGE 2: VP ACADEMIC AFFAIRS -->
+                <img src="assets/img/jonota.jpg"
+                     alt="Dr. Joe-Ann V. Jonota"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+
+                <i class="bi bi-person-circle image-placeholder"
+                   style="display:none;"></i>
+              </div>
+
+              <div class="official-info">
+
+                <h4>Dr. Joe-Ann V. Jonota, LPT</h4>
+
+                <span>Vice President for Academic Affairs</span>
+
+                <p>
+                  Oversees academic programs and promotes
+                  quality teaching, learning, and academic excellence.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Vice President 2 -->
+          <div class="col-lg-4 col-md-6">
+
+            <div class="official-card">
+
+              <div class="official-image">
+                <!-- IMAGE 3: VP STUDENT AFFAIRS -->
+                <img src="assets/img/roxane.jpg"
+                     alt="Roxanne A. Cabarubias"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+
+                <i class="bi bi-person-circle image-placeholder"
+                   style="display:none;"></i>
+              </div>
+
+              <div class="official-info">
+
+                <h4>Roxanne A. Cabarubias, LPT, PhD</h4>
+
+                <span>Vice President for Student Affairs and Services</span>
+
+                <p>
+                  Supports student development, welfare,
+                  and student services within the institution.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Vice President 3 -->
+          <div class="col-lg-4 col-md-6">
+
+            <div class="official-card">
+
+              <div class="official-image">
+                <!-- IMAGE 4: VP FINANCE -->
+                <img src="assets/img/rafyy.jpg"
+                     alt="Rev. Fr. Raffy S. Carnal"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+
+                <i class="bi bi-person-circle image-placeholder"
+                   style="display:none;"></i>
+              </div>
+
+              <div class="official-info">
+
+                <h4>Rev. Fr. Raffy S. Carnal</h4>
+
+                <span>Vice President for Finance</span>
+
+                <p>
+                  Provides leadership in financial administration
+                  and responsible management of institutional resources.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- College Deans -->
+        <h3 class="category-title">
+          College Deans
+        </h3>
+
+        <div class="row gy-4">
+
+          <!-- CEAS -->
+          <div class="col-lg-4 col-md-6">
+
+            <div class="official-card">
+
+              <div class="official-image">
+                <!-- IMAGE 5: CEAS DEAN -->
+                <img src="assets/img/rona.jpg"
+                     alt="Ma. Rona A. Hizole"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+
+                <i class="bi bi-person-circle image-placeholder"
+                   style="display:none;"></i>
+              </div>
+
+              <div class="official-info">
+
+                <h4>Ma. Rona A. Hizole, LPT, EdD</h4>
+
+                <span>Dean of the College of Education, Arts and Sciences</span>
+
+                <p>
+                  Leads the College of Education, Arts and Sciences
+                  in delivering quality academic programs.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- COC -->
+          <div class="col-lg-4 col-md-6">
+
+            <div class="official-card">
+
+              <div class="official-image">
+                <!-- IMAGE 6: COC DEAN -->
+                <img src="assets/img/alfredo.jpg"
+                     alt="Dr. Alfredo Calama-an"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+
+                <i class="bi bi-person-circle image-placeholder"
+                   style="display:none;"></i>
+              </div>
+
+              <div class="official-info">
+
+                <h4>Dr. Alfredo Calama-an, RCrim</h4>
+
+                <span>Dean of the College of Criminology</span>
+
+                <p>
+                  Guides the College of Criminology in providing
+                  professional education and criminology training.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- CMAT -->
+          <div class="col-lg-4 col-md-6">
+
+            <div class="official-card">
+
+              <div class="official-image">
+                <!-- IMAGE 7: CMAT DEAN -->
+                <img src="assets/img/soliman.jpg"
+                     alt="Eliand Rey Soliman"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+
+                <i class="bi bi-person-circle image-placeholder"
+                   style="display:none;"></i>
+              </div>
+
+              <div class="official-info">
+
+                <h4>Eliand Rey Soliman, LPT, CMMS, DBA</h4>
+
+                <span>Dean of the College of Management, Accountancy, and Technology</span>
+
+                <p>
+                  Oversees management, accountancy, and technology
+                  programs and supports student development.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container footer-top">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-6 col-md-6 footer-about">
+
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Kabankalan Catholic College, Inc.</span>
+          </a>
+
+          <div class="footer-contact pt-3">
+
+            <p>Guanzon St., Brgy. 1</p>
+            <p>Kabankalan City, Negros Occidental, Philippines, 6111</p>
+
+            <p class="mt-3">
+              <strong>Email:</strong>
+              <span>kcc_1927@yahoo.com</span>
+            </p>
+
+            <p>
+              <strong>Website:</strong>
+              <a href="https://kcc.edu.ph/" target="_blank">
+                kcc.edu.ph
+              </a>
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+
+          <h4>Quick Links</h4>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="trainers.html">Administrators</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+
+          <h4>Our Institution</h4>
+
+          <p>
+            Committed to providing quality education,
+            academic excellence, and values-centered learning.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container copyright text-center mt-4">
+
+      <p>
+        © Copyright
+        <strong class="px-1 sitename">Kabankalan Catholic College, Inc.</strong>
+        All Rights Reserved
+      </p>
+
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top"
+     class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Main JS -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (typeof AOS !== 'undefined') {
+        AOS.init({
+          duration: 800,
+          once: true
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>
